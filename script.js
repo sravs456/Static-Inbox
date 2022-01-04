@@ -4,7 +4,7 @@ function validate(){
     if(id=="sravani" && pass=="16PQ" )
     {
         alert("logged in successfully");
-    
+        return false;
     }
     else
     {
