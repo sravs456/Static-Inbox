@@ -1,10 +1,11 @@
 function validate(){
     var id= document.getElementById("name").value;
     var pass= document.getElementById("password").value;
-    if(id=="sravani" && pass=="16PQ" )
+    if(id=="sravani" && pass=="1234" )
     {
-        alert("logged in successfully");
-        return false;
+      
+        window.location("email.html");
+        
     }
     else
     {
